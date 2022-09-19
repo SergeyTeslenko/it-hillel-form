@@ -21,10 +21,10 @@
                     <input type="email" name="email" placeholder="Email" required="">
                     <input type="tel" name="phone" placeholder="Phone" required="">
                     <label for="checkbox-1" class="checkbox">I agree</label>
-                    <input type="checkbox" name="var[]" value="checkbox-1">
+                    <input type="checkbox" name="var[]" id="checkbox-1" value="checkbox-1">
                     <label for="checkbox-2" class="checkbox">Disagree</label>
-                    <input type="checkbox" name="var[]" value="checkbox-2">
-                    <input type="submit" class="btn"></input>
+                    <input type="checkbox" name="var[]" id="checkbox-2" value="checkbox-2">
+                    <input type="submit" class="btn">
                 </form>
             </div>
             <div class="phone-right">
